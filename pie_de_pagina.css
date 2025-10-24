@@ -5,3 +5,20 @@
     border-left: 1px dashed #666;
     border-right: 1px dashed #666;
 }
+#footer_principal .logo,
+#footer_principal address,
+#footer_principal blockquote {
+    float: left;
+    font-style: normal;
+}
+#footer_principal .logo {
+    margin-top: 45px;
+    width: 132px;
+    height: 170px;
+    border: 1px solid #666;
+    background-image: url(imagenes/logo2.png);
+}
+#footer_principal address, #footer_principal blockquote {
+    margin-top: 70px;
+    background-color: rgba (184, 187, 187,0.5);
+}
