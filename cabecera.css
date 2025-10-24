@@ -1,0 +1,63 @@
+#header_principal, #galeria {
+    float: left;
+}
+
+
+#header_principal {
+    position: relative;
+    width: 245px;
+    margin-left: 30px; 
+ 
+}
+
+#header_principal .logo {
+    width: 245px;
+    height: 246px;
+    border: 1px solid #666;
+    background-image: url(imagenes/logo1.png);
+   }
+
+#header_principal form {
+    position: relative;
+    width: 230px;
+    margin: 10px auto 0 auto;
+}
+
+#header_principal form label {
+    display: block; 
+    font-weight: bold; 
+    }
+
+#header_principal form input[type="text"] {
+    border: 1px solid #999;
+    padding: 5px 10px 5px 10px;
+    }
+
+#header_principal form button {
+    background-color: #8c9797; 
+    color: #fff;
+    padding: 5px 10px 5px 10px; 
+}
+
+
+#galeria {
+    position: relative;
+    width: 647px;
+    margin: 21px 0 0 13px;
+    height: 307px;
+    border: 1px solid #666;
+    background-color: rgba(184, 187, 187,0.5);
+}
+#galeria figure {
+   position:relative;
+   display: inline-block;
+   text-align: center;
+   margin: 20px 0px 0px 20px;
+   border: 1px dashed #666;
+   background-color: rgba(184, 187, 187,0.5);
+}
+#galeria img {
+   width: 101px;
+   height: 101px;
+   border: 1px solid #666;
+}

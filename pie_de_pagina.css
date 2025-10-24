@@ -1,0 +1,7 @@
+#footer_principal .content_principal {
+    height: 100px;
+    font-size: 12px;
+    background-color: rgba (184, 187, 187,0.2);
+    border-left: 1px dashed #666;
+    border-right: 1px dashed #666;
+}

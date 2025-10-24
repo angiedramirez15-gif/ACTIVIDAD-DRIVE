@@ -1,0 +1,75 @@
+.col {
+    position: relative;
+    float:left;
+    border: 1px solid #666;
+    background-color: rgba(184, 187, 187,0.3);
+}
+.col header {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #666;
+}
+.col header h2 {
+    font-size: 20px;
+}
+.col header h3 {
+    font-size: 14px;
+}
+.col article {
+    font-size: 14px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border: 1px dashed #666;
+}
+.col article:last-of-type {
+    border: 0px !important;
+}
+.col article header {
+    margin-bottom: 8px;
+    border-bottom: 1px dashed #666;
+    background-color: rgba(184, 187, 187,0.5); 
+}
+#noticias {
+    width: 195px;
+    margin-left: 30px;
+ }
+#animal_mes {
+    width: 438px;
+    margin-left: 30px;
+}
+#animales_mes img {
+    width: 438px;
+    height: 253px;
+}
+#redes_sociales {
+    margin-left: 20px;
+}
+#redes_sociales ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+#redes_sociales ul li .icon{
+    display: inline-block;
+    margin-right: 10px;
+    width: 21px;
+    height: 19px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#redes_sociales ul li a div {
+    display: inline-block;
+}
+#redes_sociales .icon{
+    height: 17px;
+    background-image: url(imagenes/icono_redes.png); 
+}
+#pinguino {
+    width: 154px;
+    height: 235px;
+    z-index: 1000;
+    position: absolute;
+    right: 30px;
+    bottom: -68px;
+    border: 1px solid #666;
+    background-color: #8c9797;
+    background-image: url(imagenes/aside.png);
+}
